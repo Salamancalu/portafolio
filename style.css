@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+@keyframes moverFondo {
+  from {
+    background-position: top;
+  }
+  to {
+    background-position: bottom;
+  }
+}
+
+.header {
+    padding: 2% 5% 0% 24%;  
+    
+}
+
+.navegacion {
+    display: flex;
+    gap: 80px;
+}
+
+.navegacion__lista__elemento__enlace  {
+    text-decoration: none;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-size: 24px;
+    color: #F6F6F6;
+
+}
+
+
+.presentacion {
+    padding: 4.5% 26%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion__contenido{
+    
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.presentacion__contenido__titulo{
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.titulo-destaque {
+    color: #22D4FD; ;
+}
+
+.presentacion__contenido__texto{
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    
+   
+}
+
+.presentacion__enlaces{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentacion__enlaces__subtitulo{
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-size: 30px;
+}
+
+.presentacion__enlaces__link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 3px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 35px;
+    font-weight: 600;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-size: 24px;
+}
+
+.presentacion__enlaces__link:hover{
+    background-color: #272727;
+}
+
+.footer{
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
