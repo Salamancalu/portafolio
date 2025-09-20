@@ -13,14 +13,6 @@ body{
     color: #F6F6F6;
 }
 
-@keyframes moverFondo {
-  from {
-    background-position: top;
-  }
-  to {
-    background-position: bottom;
-  }
-}
 
 .header {
     padding: 2% 5% 0% 24%;  
@@ -117,4 +109,5 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
+
 }
